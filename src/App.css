@@ -1,0 +1,53 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 51%)),
+    url("/background.jpg") !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-sky-clear {
+  background-image: url("/clear-sky.jpg") !important;
+}
+.bg-broken-clouds {
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 51%)),
+    url("/broken-clouds.jpg") !important;
+}
+.bg-few-clouds {
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 51%)),
+    url("/few-clouds.jpg") !important;
+}
+.bg-scattered-clouds {
+  background-image: url("/scattered-clouds.jpg") !important;
+}
+.bg-shower-rain {
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 51%)),
+    url("/shower-rain.jpg") !important;
+}
+.bg-rain {
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 51%)),
+    url("/rain.jpg") !important;
+}
+.bg-storm {
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 51%)),
+    url("/storm.jpg") !important;
+}
+.bg-snow {
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 51%)),
+    url("/snow.jpg") !important;
+}
+.bg-mist {
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 51%)),
+    url("/mist.jpg") !important;
+}
+.error__window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

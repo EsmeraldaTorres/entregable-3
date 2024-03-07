@@ -1,0 +1,27 @@
+.box__input__city {
+  max-width: 400px;
+  margin-bottom: 2em;
+}
+.input__city {
+  height: 1.5em;
+  padding: 0.2em 0.7em;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px blue;
+  font-size: 0.9em;
+}
+.input__city:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.btn__search__city {
+  background: #c55f00;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9em;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+  height: 1.9em;
+  padding: 0.2em 0.7em;
+  border: 1px blue;
+}
